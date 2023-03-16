@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <script src="index.js"></script>
+  
+
+   
+</head>
+
+<body>
+   
+
+    <form action=" " name="register" method="post" >
+        <fieldset>
+            
+          
+               <legend> REGISTRATION FORM</legend>
+
+            <label>Name :</label>
+            <input type="text" required  name="name">
+            <br><br>
+
+            <label>Date of Birth :</label>
+            <input type="date" required  name="dob">
+            <br><br>
+
+            <label>gender :</label>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <br><br>
+
+            <label>Father name :</label>
+            <input type="text" required  name="fatherame">
+            <br><br>
+
+            <label>address :</label>
+            <textarea name="address"></textarea>
+            <br><br>
+
+            <label>mobile no :</label>
+            <input type="text" required  name="mobileno">
+            <br><br>
+
+            <label>phone number :</label>
+            <input type="tel"  required placeholder="99-999-999999" name="phoneno">
+            <br><br>
+
+            <label>Email id :</label>
+            <input type="email" required name="mail">
+            <br><br>
+
+            <label>College Name :</label>
+            <input type="text" required name="college">
+            <br><br>
+
+            <label>Mark Scored :</label>
+            <input type="text"  required name="mark">
+            <br><br>
+
+            <label>Personal Interest :</label>
+            <br>
+            <input type="checkbox" name="Interest" value="dancing">dancing
+            <input type="checkbox" name="Interest" value="singing">singing
+            <input type="checkbox" name="Interest" value="travelling">travelling
+            <input type="checkbox" name="Interest" value="acting">acting
+          
+            <br><br>
+
+            <button type="submit" style="margin-left:  550px;" onsubmit="validation()">submit</button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
